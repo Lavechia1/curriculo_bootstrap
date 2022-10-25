@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu Site</title>
+
+    <!--INICIO: bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--FIM: bootstrap CSS-->
+</head>
+  <body>
+    
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Daniel Lavechia Cardoso</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#educacao">Educação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carreira">Carreira</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Carreira
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item icomm-dev" href="#analista">Analista</a></li>
+                  <li><a class="dropdown-item" href="#assistente">Linkedin</a></li>                  
+                </ul>
+              </li>-->
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/daniel-lavechia-cardoso-358036121/" target="_blank">Linkedin</a></li>  
+                  <li><a class="dropdown-item" href="https://github.com/Lavechia1" target="_blank">GitHub</a></li>                                    
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Versão em JQuery</a>
+              </li>
+            </ul>
+            
+            
+            
+          </div>
+        </div>
+    </nav>
+
+    <!--cabeçalho-->
+    <header class="container my-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 mt-lg-5 pt-lg-5" style=>
+                <h1 class="text-center text-md-start">Olá mundo, eu sou o <br> Daniel Lavechia Cardoso!
+                </h1>
+                <p class="lead text-muted text-center text-md-start mt-3">Desenvolvedor Front-End Junior,
+                    estudante de Analise e Desenvolvimento de
+                    Sistemas, prestativo e proativo para meu
+                    desenvolvimento profissional e apaixonado pelo
+                    mundo da tecnologia, sempre com o objetivo de
+                    trazer a melhor experiência para meu cliente.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark col-12 mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Acesse e saiba mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Linkedin e GitHub</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="/Site Completo/linkedin.png" width="230px" class="img-fluid">
+                        <img src="/Site Completo/github.png" width="230px" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ok</button>                        
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+               <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark col-12 mt-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Informações pessoais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Endereço e Contatos</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Endereço</h5><p>Rua Malvina Ferrara Samarone, 195 - Sacomã - São Paulo</p><br>
+                        <h5>Contato</h5><p><strong>Telefone: </strong>(11) 98379-5329 <br><strong>E-mail: </strong>daniel.lavechia@outlook.com.br </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ok</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+            </div>
+            <div class="col-12 col-lg-6 p-5">
+                <img src="/Site Completo/Daniel.png" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="educacao">
+            <div class="col">
+              <div class="card border-0 h-100">
+                <i class="bi bi-mortarboard-fill ms-3" style="font-size:2rem;"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Analise e Desenvolvimento de Sistemas</h5>
+                  <p class="card-text">Universidade Nove de Julho <br> 01/21 - 06/23</p>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 h-100">
+                    <i class="bi bi-code ms-3" style="font-size:2rem;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Design: PHP, HTML, CSS e JavaScript</h5>
+                        <p class="card-text">Udemy <br> Atualmente</p>
+                        <h5 class="card-title">Linguagens web (HTML – CSS e Java Script)</h5>
+                        <p class="card-text">Mastertech<br> 09/18</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 h-100">
+                    <i class="bi bi-journal-arrow-up  ms-3" style="font-size:2rem;"></i>
+                        <div class="card-body">
+                        <h5 class="card-title">Certificação Scrum Foundation Professional</h5>
+                        <p class="card-text">CertProf <br>03/21</p>
+                        <h5 class="card-title">Inglês até o nível Intermediário</h5>
+                        <p class="card-text">Wizard<br>01/13 - 12/16</p>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-4 pt-4">
+          <h1 class="text-center text-md-start" id="carreira">Carreira</h1>
+        </div>
+        <div class="accordion mt-3" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed bg-dark text-light" id="analista" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Analista de Desenvolvimento Front-End Jr.
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5><strong>ICOMM Group |</strong> 08/21 - Atualmente</h5> <br>Responsável por cuidar junto ao time de
+                desenvolvimento das rotinas de Newsletter e PDV
+                (rotina de manutenção do site) que nos era
+                demandada pelo setor de Marketing, criação de
+                Landing Pages dos mais diversos assuntos utilizando
+                HTML, CSS e JS, onde os layouts eram demandados dos
+                setores responsáveis, e atendimentos básicos de
+                chamados de melhorias de funcionalidades do site a
+                fim de trazer melhor experiência ao usuário.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-dark text-light" id="assistente" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Assistente de TI
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5><strong>ICOMM Group |</strong> 08/20 - 08/21</h5> <br>Trabalhava com a equipe de suporte e infraestrutura nas tratativas com usuários
+                mantendo as tratativas de nível 1 e todas as autuações acima descritas e
+                adicionado ajuda na resolução de demandas nível 2, com verificação de
+                problemas recorrentes, avaliando e propondo soluções para estes, instalação e
+                configuração de firewall PFSense, instalação e configuração de controladora WIFI
+                para aparelhos Ubiquiti, controle de ativos e inventário de máquinas e
+                aparelhos de informática das unidades paulistanas lançamento de contas de
+                consumo de responsabilidade do setor para a fila de pagamento do financeiro
+                mantendo o controle para não perder os prazos de pagamento.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-dark text-light" id="estagiario1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Estagiário de TI
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5><strong>ICOMM Group |</strong> 08/19 - 08/20</h5> <br>Trabalhava com a equipe de suporte e infraestrutura em tratativas com os
+                usuários e demandas de atendimento respeitando prazos de SKU’s em
+                atendimento de nível 1, formatação de computadores Windows, MacOS e Linux,
+                instalação de softwares, atualização de OS e programas, manutenção básica e
+                intermediária de notebooks, desktops e produtos Apple, fixação de IP’s em
+                firewall PFSense, adaptações no cabeamento estruturado já existente, era
+                responsável técnico de uma unidade da empresa.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed bg-dark text-light" id="estagiario2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                Estagiário de TI
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5><strong>Grupo HDI |</strong> 02/18 - 09/18</h5> <br>Trabalhava junto a equipe de Testes de Software de P.O.S. de pagamento por
+                cartão de débito e crédito, Tinha como objetivo a validação do fluxo de testes
+                pré-definidos pelo cliente, além da validação do layout, mensagens,
+                comprovantes e quaisquer funcionalidade que fosse pertinente a princípio do
+                software, analisando atentamente possíveis erros e caso detectados relatandoos
+                ao cliente para a correção.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed bg-dark text-light" id="aprendiz" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                Jovem Aprendiz, Recursos Humanos
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h5><strong>Saint-Gobain, Telhanorte |</strong> 02/15 - 06/16</h5> <br>Em breve passagem no departamento de pessoal fiquei responsável pelo
+                controle do relógio de ponto e dos arquivos dos funcionários, já na área de
+                treinamento e desenvolvimento pessoal, setor qual eu fiquei mais tempo, fui
+                responsável pela logística dos treinamentos internos de capacitação dos
+                funcionários, organizando desde o local até a contratação da empresa que iria
+                capacitar os funcionários, e por fim passei pelo recrutamento e seleção que
+                junto a equipe fazia partes do processo de seleção de funcionários, fazendo
+                testes, participando de entrevistas e cuidando dos assuntos de admissão.
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+    <footer class="mt-4 bg-dark text-center text-light p-2">
+        Desenvolvido em Bootstrap 5.
+    </footer>
+    <!--INICIO: bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--FIM: bootstrap JS-->
+    <script>
+      /*const carreiraIcomm = document.querySelector('icomm-estagio');
+      const carreiraIcomm1 = document.querySelector('icomm-dev');
+
+      carreiraIcomm1.addEventListener('click', () => {
+          document.getElementById('idanalista').aria-expanded = true;
+      })*/
+    </script>
+</body>
+</html>
